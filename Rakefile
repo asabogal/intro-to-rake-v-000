@@ -1,5 +1,5 @@
 namespace :db do
-desc 'loads environment dependency'
+
   task :environment do
   require_relative './config/environment'
   end
